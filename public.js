@@ -65,6 +65,12 @@ fileInput.addEventListener("change",() =>{
   uploadFile();
 });
 
+// sharing container listenrs
+copyURLBtn.addEventListener("click", () => {
+  fileURL.select();
+  document.execCommand("copy");
+  showToast("Copied to clipboard");
+});
 
 fileURL.addEventListener("click", () => {
   fileURL.select();
