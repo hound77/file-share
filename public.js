@@ -36,7 +36,7 @@ dropZone.addEventListener("dragover", (e) => {
 dropZone.addEventListener("dragleave", (e) => {
   dropZone.classList.remove("dragged");
 
-  console.log("drag ended");
+  // console.log("drag ended");
 });
 
 dropZone.addEventListener("drop", (e) => {
